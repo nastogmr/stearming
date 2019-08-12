@@ -11,30 +11,30 @@ client.on('message', message => {
       
   if (message.content.startsWith(adminprefix + 'ply')) {
     client.user.setGame(argresult);
-      message.channel.send(`**✅   ${argresult}**`)
+      message.channel.send(`**✅ تم تغير من طرف ناستو  ${argresult}**`)
   } else 
      if (message.content === (adminprefix + "leave")) {
     message.guild.leave();        
   } else  
   if (message.content.startsWith(adminprefix + 'st')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
-      message.channel.send(`**✅   ${argresult}**`)
+      message.channel.send(`**✅ تم تغير من طرف ناستو  ${argresult}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'lis')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
-      message.channel.send(`**✅   ${argresult}**`)
+      message.channel.send(`**✅ تم تغير من طرف ناستو  ${argresult}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'sets')) {
     client.user.setGame(argresult, "https://www.twitch.tv/dream");
-      message.channel.send(`**✅**`)
+      message.channel.send(`**✅ تم تغير من طرف ناستو  ${argresult}**`)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
   client.user.setUsername(argresult).then
-      message.channel.send(`Changing The Name To ..**${argresult}** `)
+      message.channel.send(`تم تغير الاسم من طرف ناستو ..**${argresult}** `)
 } else
 if (message.content.startsWith(adminprefix + 'setava')) {
   client.user.setAvatar(argresult);
-    message.channel.send(`Changing The Avatar To :**${argresult}** `);
+    message.channel.send(`تم تغير الصورة من طرف ناستو :**${argresult}** `);
 }
 });
 
