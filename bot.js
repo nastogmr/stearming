@@ -17,14 +17,14 @@ client.on('message', message => {
   if (message.content.startsWith(prefix + 'wat')) {
   client.user.setActivity(argresult, {type: 'WATCHING'})
      console.log('test' + argresult);
-    message.channel.sendMessage(`** By NaSto <3 : ${argresult}**`)
+    message.channel.sendMessage(`** Mikasa > : ${argresult}**`)
 } 
 
  
   if (message.content.startsWith(prefix + 'lis')) {
   client.user.setActivity(argresult, {type: 'LISTENING'})
      console.log('test' + argresult);
-    message.channel.sendMessage(`** By NaSto <3 : ${argresult}**`)
+    message.channel.sendMessage(`** Mikasa >: ${argresult}**`)
 } 
 
 
@@ -36,18 +36,18 @@ if (message.content.startsWith(prefix + 'setname')) {
 
 if (message.content.startsWith(prefix + 'setavatar')) {
   client.user.setAvatar(argresult);
-   message.channel.sendMessage(`** By NaSto <3 : ${argresult}**`);
+   message.channel.sendMessage(`** Mikasa >: ${argresult}**`);
 }
 
 if (message.content.startsWith(prefix + 'st')) {
   client.user.setGame(argresult, "https://www.twitch.tv/peery13");
      console.log('test' + argresult);
-    message.channel.sendMessage(`** By NaSto <3 : ${argresult}**`)
+    message.channel.sendMessage(`** Mikasa > : ${argresult}**`)
 } 
 if (message.content.startsWith(prefix + 'ply')) {
   client.user.setGame(argresult);
      console.log('test' + argresult);
-    message.channel.sendMessage(`** By NaSto <3 : ${argresult}**`)
+    message.channel.sendMessage(`** Mikasa >: ${argresult}**`)
 } 
 
 
